@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
 
   s.osx.deployment_target = "10.14"
   s.osx.framework  = 'AppKit'
+  
+  s.osx.deployment_target = "6.0"
+  s.osx.framework  = 'WatchKit'
 end
